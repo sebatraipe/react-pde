@@ -1,0 +1,9 @@
+.estilo {
+  border: 2px solid rgb(175, 160, 142);
+  border-radius: 20px;
+  margin: 16px;
+  padding: 16px;
+  margin-left: 450px;
+  margin-right: 450px;
+  box-shadow: 0 2px 5px 0 rgb(177, 177, 177);
+}
