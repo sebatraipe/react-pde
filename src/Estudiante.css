@@ -1,9 +1,18 @@
 .estilo {
-  border: 2px solid rgb(175, 160, 142);
+  border: 2px solid rgb(134, 130, 125);
   border-radius: 20px;
-  margin: 16px;
-  padding: 16px;
-  margin-left: 450px;
-  margin-right: 450px;
+  margin: 50px;
+  padding: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
   box-shadow: 0 2px 5px 0 rgb(177, 177, 177);
+}
+.estilo-tabla{
+  border: 1px solid black;
+  width: 50%;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: center;
 }
