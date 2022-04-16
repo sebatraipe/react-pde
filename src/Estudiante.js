@@ -6,7 +6,7 @@ export default class Estudiante extends Component {
     super(props);
     this.handleClick = this.handleClick.bind(this);
     this.state = {
-      cursos: ["PDE", "10 hs semanales"],
+      cursos: [{ nombre: "PDE", hs: "10 hs semanales" }],
     };
     this.randomCurso = this.randomCurso.bind(this);
     this.cursoRandom = ["Un curso cualquiera", "AngularLIA", "SpringLIA"];
@@ -15,8 +15,10 @@ export default class Estudiante extends Component {
 
   randomCurso() {
     let cursoArray = [
-      this.cursoRandom[(Math.random() * this.cursoRandom.length) | 0],
-      this.horaRandom[(Math.random() * this.horaRandom.length) | 0],
+      {
+        nombre: this.cursoRandom[(Math.random() * this.cursoRandom.length) | 0],
+        hs: this.horaRandom[(Math.random() * this.horaRandom.length) | 0],
+      },
     ];
     return cursoArray;
   }
@@ -45,11 +47,12 @@ export default class Estudiante extends Component {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              {this.state.cursos.map((curso) => (
-                <td>{curso}</td>
-              ))}
-            </tr>
+            {this.state.cursos.map((curso) => (
+              <tr>
+                <td>{curso.nombre}</td>
+                <td>{curso.hs}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
 
