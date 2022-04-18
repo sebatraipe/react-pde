@@ -1,0 +1,42 @@
+.estilo {
+  border: 2px solid rgb(134, 130, 125);
+  border-radius: 20px;
+  margin: 50px;
+  padding: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  box-shadow: 0 2px 5px 0 rgb(177, 177, 177);
+}
+
+.estilo-tabla {
+  border: 1px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  
+}
+
+.button {
+  background-color: #a3a3a3;
+  border: none;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.estilo-2{
+  display: flex;
+  justify-content: center;
+}

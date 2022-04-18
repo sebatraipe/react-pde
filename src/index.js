@@ -2,18 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Estudiante from "./Estudiante";
+import Curso from "./Curso";
 
-let estudiante = {
+/*let estudiante = {
   nombre: "Sebastián",
   apellido: "Traipe",
-};
+};*/
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Estudiante estudiante={estudiante} />
-    {/**  <CountClick /> */}
+    {/*<Estudiante estudiante={estudiante} />*/}
+    <Curso />
   </React.StrictMode>
 );
 
