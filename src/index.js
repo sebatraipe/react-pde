@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Curso from "./Curso";
+import CrearEstudiante from "./CrearEstudiante";
 
 /*let estudiante = {
   nombre: "Sebastián",
@@ -13,7 +13,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/*<Estudiante estudiante={estudiante} />*/}
-    <Curso />
+    {/*<Curso />*/}
+    <CrearEstudiante />
   </React.StrictMode>
 );
 
